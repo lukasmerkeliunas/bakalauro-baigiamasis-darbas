@@ -1,2 +1,2 @@
 # bakalauro-baigiamasis-darbas
-Tai yra baigiamojo darbo metu sukurto sistemos programinis kodas
+Tai yra baigiamojo darbo metu sukurtos sistemos programinis kodas

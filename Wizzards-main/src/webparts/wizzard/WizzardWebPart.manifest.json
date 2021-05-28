@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "f45068d7-c029-4110-b300-611352129b23",
+  "alias": "WizzardWebPart",
+  "componentType": "WebPart",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Wizzard" },
+    "description": { "default": "Wizzard description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "configuration": "[{\"idx\":0,\"title\":\"Step 0\",\"body\":\"Please set up \",\"allowBack\":false,\"times\":15000,\"showButtons\":true}]",
+      "context": "please set your context", 
+      "destPath":"/sites/lmvtech/Certificates/Documents/Interactive_Course_certificate.docx",
+      "srcPath": "/sites/lmvtech/Certificates/_Templates/Interactive_Course_Template.docx",
+      "trainer":"lmerkeliunas@lmvtech.onmicrosoft.com"
+    }
+  }]
+}
